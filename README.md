@@ -7,4 +7,14 @@
  1.布局 subviews，得到dataConreoller请求下来的数据，根据数据初始化viewmodel ，并与view绑定
  2.用户操作view的回调在viewcontroller，操作viewmodel，刷新UI（没有借助第三方绑定<ReactiveCocoa,RXSwift...>）
  
-# 
+# Data Controller
+ 用来请求数据，及解析
+
+# Model
+  用来存放数据
+ 
+# viewModel
+ 数据展示和样式定制的逻辑
+ 
+# view
+ 存view
